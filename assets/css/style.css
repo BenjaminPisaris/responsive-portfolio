@@ -1,0 +1,100 @@
+body {
+    background-image: url("https://i.imgur.com/t30NLCq.png");
+
+    /*hosted on web instead of local because for some reason the directory wouldn't work locally*/
+}
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    height: 75px;
+    background-color:teal;
+    width:170px;
+    right:300px;   
+}
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    float: right;
+  
+}
+#content {
+    overflow: auto; 
+    background-color: #ffffff;
+    background-size: 30px;
+    margin: auto;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 40px;
+    width:960px;
+   
+
+}
+#form {
+    align-content: center;
+}
+img {
+    height: 180px;
+    width: 240px;
+    position: relative;
+    float: left;
+    padding-right:20px;
+    padding-bottom: 10px;
+   
+}
+#links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+    
+}
+#link {
+    float: left;
+    margin-left:5pt;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-family: Arial, large;
+}
+#link:hover {
+    background-color: #eeeeee;
+    
+
+}
+
+#profile {
+    float: left;
+}
+
+#link a {
+    color:white
+}
+
+link a:hover {
+    color: teal;
+}
+h2 {
+    color: teal;
+    font-size: 36pt;
+}
+#gallery {
+    margin:5px;
+    border: 1px solid #777777;
+    width: 180px;
+    float: left;
+}
+#gallery.hover{
+    border:1px solid black;
+    color:black;
+}
+#cap{
+    padding: 15px;
+    align-content: center;
+}
+#pp{
+    height:180px;
+    width:180px;
+}

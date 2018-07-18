@@ -97,25 +97,28 @@ h2 {
     width:180px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 640px) {
     #content {
-        width: 600px;
+        width: 93.75%;
 
+    }
+    h1 {
+        position:static;
     }
   
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (max-width: 760px) {
     #content {
-        width: 760px;
+        width: 98.9%;
 
     }
 
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
     #content {
-        width: 960px;
+        width: 97.9%;
 
     }
 

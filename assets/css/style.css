@@ -23,9 +23,7 @@ p {
     background-color: #ffffff;
     background-size: 30px;
     margin: auto;
-    padding-right: 250px;
-    padding-left: 250px;
-    padding-top: 40px;
+   
     width:960px;
    
 
@@ -97,4 +95,28 @@ h2 {
 #pp{
     height:180px;
     width:180px;
+}
+
+@media screen and (min-width: 600px) {
+    #content {
+        width: 600px;
+
+    }
+  
+}
+
+@media screen and (min-width: 760px) {
+    #content {
+        width: 760px;
+
+    }
+
+}
+
+@media screen and (min-width: 980px) {
+    #content {
+        width: 960px;
+
+    }
+
 }
